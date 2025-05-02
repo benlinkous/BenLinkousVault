@@ -55,7 +55,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily Log 20250501.md",
+                "file": "Daily Logs/Daily Log 20250501.md",
                 "mode": "source",
                 "source": false
               },
@@ -211,10 +211,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "65d823136b48fbea",
+  "active": "c3b9d9423019a5aa",
   "lastOpenFiles": [
     "Daily Closeout/20250501 Daily Closeout – LinkOS Goes Public.md",
-    "Daily Log 20250501.md",
+    "Daily Logs/Daily Log 20250501.md",
     "Projects/LinkOS Mission & Vision  as of 20250501.md",
     "Daily Closeout",
     "Daily Diary/Day 1 - 20250429.md",
