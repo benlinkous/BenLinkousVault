@@ -13,15 +13,58 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lessons Learned/20250429 How AI Helped (and How It Didn't).md",
+                "file": "Daily Diary/Day 1 - 20250429.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "20250429 How AI Helped (and How It Didn't)"
+              "title": "Day 1 - 20250429"
+            }
+          },
+          {
+            "id": "c3abbb3713d790f4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Projects/LinkOS Mission & Vision  as of 20250501.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "LinkOS Mission & Vision  as of 20250501"
+            }
+          },
+          {
+            "id": "9573eb02fef581e6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Daily Closeout/20250501 Daily Closeout – LinkOS Goes Public.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "20250501 Daily Closeout – LinkOS Goes Public"
+            }
+          },
+          {
+            "id": "65d823136b48fbea",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Daily Log 20250501.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Daily Log 20250501"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -168,21 +211,24 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c3b9d9423019a5aa",
+  "active": "65d823136b48fbea",
   "lastOpenFiles": [
+    "Daily Closeout/20250501 Daily Closeout – LinkOS Goes Public.md",
+    "Daily Log 20250501.md",
+    "Projects/LinkOS Mission & Vision  as of 20250501.md",
+    "Daily Closeout",
     "Daily Diary/Day 1 - 20250429.md",
+    "Daily Logs/Daily Log 20250429.md",
+    "Daily Logs/Daily Log 20250430.md",
+    "Lessons Learned/20250429 How AI Helped (and How It Didn't).md",
     "Daily Diary/Day 1 - 20250428.md",
     "Daily Diary/Day 2 - 20250428.md",
     "Daily Diary/Day 3 - 20250429.md",
     "Lessons Learned/20250430 Grub Recovery Explained.md",
     "Lessons Learned/20250430 Linux Recovery.md",
-    "Daily Logs/Daily Log 20250430.md",
     "Lessons Learned",
-    "Daily Logs/Daily Log 20250429.md",
     "Reflections/Day 1 Reflection.md",
     "Daily Logs",
-    "Lessons Learned/20250429 How AI Helped (and How It Didn't).md",
-    "Untitled",
     "Welcome.md",
     "Where I Was Three Months Ago.md",
     "Goals",
