@@ -1,0 +1,16 @@
+# Ignore macOS system files
+.DS_Store
+
+# Ignore Obsidian workspace/session settings
+.obsidian/workspace
+.obsidian/workspace.json
+.obsidian/workspace-vault.json
+.obsidian/plugins/
+.obsidian/cache
+
+# Ignore swap/temp files
+*.swp
+*.tmp
+*~
+
+# Track all markdown notes, including Daily Diary
