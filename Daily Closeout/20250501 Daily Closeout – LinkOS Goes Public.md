@@ -1,7 +1,5 @@
 # 📅 2025-05-01 | Daily Closeout – LinkOS Goes Public
 
-**Reminder: This is for documentation and organizing my AI-assisted learning journey only — not for new advice unless I specifically ask.**
-
 ---
 
 ## ✅ Key Wins Today
