@@ -153,12 +153,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lessons Learned/20250502 Lessons Learned Refining Function Identity and Flow.md",
+                "file": "Reflections/20250504 Reflection; Reset Post Catching Up & Realigning.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "20250502 Lessons Learned Refining Function Identity and Flow"
+              "title": "20250504 Reflection; Reset Post Catching Up & Realigning"
             }
           }
         ],
@@ -311,6 +311,14 @@
   },
   "active": "c3b9d9423019a5aa",
   "lastOpenFiles": [
+    "Projects/LinkOS",
+    "Projects/LinkOS/LinkOS Core Tools.md",
+    "Projects/LinkOS/LinkOS Mission & Vision  as of 20250501.md",
+    "Projects/Link's Nexus Project/Link's Nexus Key Legend.md",
+    "Projects/Link's Nexus Project",
+    "Lessons Learned/20250502 Lessons Learned Refining Function Identity and Flow.md",
+    "Lessons Learned/20250504 Lessons Learned Git Commit Clarity.md",
+    "Unconfirmed 171789.crdownload",
     "Lessons Learned/20250503 Lessons Learned Recalibrating After Disruptions.md",
     "Unconfirmed 592941.crdownload",
     "Daily Closeout/20250503 Daily Closeout Off-Track but Not Off-Mission.md",
@@ -326,26 +334,18 @@
     "Lessons Learned/20250502 Lessons Learned Tool Selection for Beginner Distros.md",
     "Lessons Learned/Unconfirmed 530529.crdownload",
     "Lessons Learned/20250502 Lessons Learned Linux Usability and Branding Integration.md",
-    "Lessons Learned/20250502 Lessons Learned Refining Function Identity and Flow.md",
     "Unconfirmed 320255.crdownload",
     "Daily Logs/20250502 Daily Log.md",
-    "Unconfirmed 461056.crdownload",
     "Daily Closeout/20250502 Daily Closeout.md",
-    "Daily Closeout/Unconfirmed 816430.crdownload",
     "Daily Closeout/20250501 Daily Closeout — LinkOS Comes to Life.md",
     "Lessons Learned/20250501 Lesson Learned- From Repair to Identity.md",
     "Daily Logs/20250501 Daily Log.md",
     "Daily Logs/20250429 Daily Log.md",
     "Daily Logs/20250430 Daily Log.md",
-    "KEY.md",
-    "core_tools.md",
     "Reflections/20250504 Reflection; Reset Post Catching Up & Realigning.md",
     "Reflections/20250430 Day 2 Reflection.md",
     "Daily Closeout/20250501 Daily Closeout - A Day of Linux Resurrection and AI Realism.md",
     "Daily Closeout/20250430 Daily Closeout.md",
-    "Daily Diary/Day 4 - 20250502.md",
-    "Daily Diary/Day 3 - 20250502.md",
-    "Lessons Learned/20250430 Lessons Learned Don't Mix Repos Unless You Want to Rebuild.md",
-    "Lessons Learned/20250430 Lessons Learned Linux Recovery.md"
+    "Daily Diary/Day 4 - 20250502.md"
   ]
 }
