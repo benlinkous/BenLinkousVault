@@ -1,4 +1,4 @@
-# Diary Entry – Stream of Consciousness
+# Stream of Consciousness
 
 **Date:** 2025-05-05
 
