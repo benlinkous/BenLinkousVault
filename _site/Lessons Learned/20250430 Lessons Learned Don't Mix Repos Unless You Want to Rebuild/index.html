@@ -1,0 +1,51 @@
+<h3>20250430 Lessons Learned – <em>&quot;Don't Mix Repos Unless You Want to Rebuild&quot;</em></h3>
+<p><strong>Tags:</strong> #package-management #debian-stability #repo-hygiene #kali-conflict #system-integrity</p>
+<hr>
+<h2>💥 What Happened</h2>
+<p>After experimenting with Kali Linux repositories and tools on a Debian system, severe instability followed:</p>
+<ul>
+<li>
+<p>GNOME desktop completely broke</p>
+</li>
+<li>
+<p>Theming and GRUB were overwritten by Kali branding</p>
+</li>
+<li>
+<p>Boot process was hijacked by Kali’s GRUB entries</p>
+</li>
+<li>
+<p>Required full manual GRUB recovery and environment reset</p>
+</li>
+</ul>
+<hr>
+<h2>💡 What I Learned</h2>
+<ul>
+<li>
+<p>Mixing Debian and Kali repos is <strong>not safe</strong> without surgical package pinning or sandboxing.</p>
+</li>
+<li>
+<p><strong>Repo hygiene</strong> is critical — even a single <code>apt install</code> from the wrong source can destabilize the system.</p>
+</li>
+<li>
+<p>System identity (GRUB, themes, login manager) can be hijacked by more aggressive distros.</p>
+</li>
+<li>
+<p>Knowing how to recover your system is essential — but knowing how to <strong>not break it in the first place</strong> is the real skill.</p>
+</li>
+</ul>
+<hr>
+<h2>📎 Best Practices Moving Forward</h2>
+<ul>
+<li>
+<p>Never add a Kali repo to a stable Debian system unless inside a container, chroot, or VM</p>
+</li>
+<li>
+<p>Track all third-party repo additions in a dedicated config note</p>
+</li>
+<li>
+<p>Use tool-specific AppImages or Flatpaks where possible</p>
+</li>
+<li>
+<p>Keep a recovery USB (Ventoy + Ubuntu Live) always available</p>
+</li>
+</ul>

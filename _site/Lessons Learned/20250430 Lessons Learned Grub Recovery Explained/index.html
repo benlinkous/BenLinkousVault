@@ -1,0 +1,11 @@
+<h1>GRUB Recovery Process – April 30, 2025</h1>
+<p><strong>Tags:</strong> #grub-fix #linux-boot #ai-assisted #system-concepts</p>
+<h2>What Happened</h2>
+<p>My system was Debian, but after pulling in Kali packages (accidentally or experimentally), Kali’s GRUB and branding took over the bootloader. Even after deleting the Kali folder, boot entries and visuals remained.</p>
+<hr>
+<h2>Manual GRUB Boot (from grub&gt; prompt)</h2>
+<pre><code class="language-bash">set root=(hd0,gpt2)
+linux /boot/vmlinuz-6.1.0-34-amd64 root=/dev/nvme0n1p2 ro quiet
+initrd /boot/initrd.img-6.1.0-34-amd64
+boot
+</code></pre>

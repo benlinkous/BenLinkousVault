@@ -4,249 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "495dd405235ad22f",
+        "id": "0d43c1bdf3227e3e",
         "type": "tabs",
         "children": [
           {
-            "id": "296f2ab09fa0730c",
+            "id": "83dff51127774e41",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Daily Diary/Day 1 - 20250429.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Day 1 - 20250429"
-            }
-          },
-          {
-            "id": "c3abbb3713d790f4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Projects/LinkOS Mission & Vision  as of 20250501.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "LinkOS Mission & Vision  as of 20250501"
-            }
-          },
-          {
-            "id": "9573eb02fef581e6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Daily Closeout/20250501 Daily Closeout – LinkOS Goes Public.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "20250501 Daily Closeout – LinkOS Goes Public"
-            }
-          },
-          {
-            "id": "65d823136b48fbea",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "core_tools.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "core_tools"
-            }
-          },
-          {
-            "id": "6a730a76791c5da4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Daily Logs/20250430 Daily Log.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "20250430 Daily Log"
-            }
-          },
-          {
-            "id": "85df0d8d2aac8d19",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Daily Closeout/20250501 Daily Closeout – LinkOS Goes Public.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "20250501 Daily Closeout – LinkOS Goes Public"
-            }
-          },
-          {
-            "id": "dd777ebbe008555d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Daily Closeout/20250501 Daily Closeout – LinkOS Goes Public.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "20250501 Daily Closeout – LinkOS Goes Public"
-            }
-          },
-          {
-            "id": "e0a6fbf1f1364933",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Daily Logs/20250430 Daily Log.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "20250430 Daily Log"
-            }
-          },
-          {
-            "id": "9e07dac3137dc9aa",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Daily Logs/20250501 Daily Log.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "20250501 Daily Log"
-            }
-          },
-          {
-            "id": "5d96fcfb1dc076ca",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Lessons Learned/20250501 Lesson Learned- From Repair to Identity.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "20250501 Lesson Learned- From Repair to Identity"
-            }
-          },
-          {
-            "id": "32f7eec7222636b2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Reflections/20250504 Reflection; Reset Post Catching Up & Realigning.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "20250504 Reflection; Reset Post Catching Up & Realigning"
-            }
-          },
-          {
-            "id": "56b03160f9424aa0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Daily Logs/20250504 Daily Log.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "20250504 Daily Log"
-            }
-          },
-          {
-            "id": "06885c0b6a5d3546",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Daily Closeout/20250504 Daily Closeout-Final Tasks and Catchup.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "20250504 Daily Closeout-Final Tasks and Catchup"
-            }
-          },
-          {
-            "id": "9f8b678000022f68",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Daily Diary/20250505 Daily Diary.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "20250505 Daily Diary"
-            }
-          },
-          {
-            "id": "c6920cf70893617a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Daily Logs/20250505 Daily Log.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "20250505 Daily Log"
-            }
-          },
-          {
-            "id": "b68635ff8599a5d6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "20250505 Daily Closeout.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "20250505 Daily Closeout"
-            }
-          },
-          {
-            "id": "ce40a8d150698ae2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "20250505 Lessons Learned – Icon Customization and Desktop Simplification.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "20250505 Lessons Learned – Icon Customization and Desktop Simplification"
+              "title": "New tab"
             }
           }
-        ],
-        "currentTab": 16
+        ]
       }
     ],
     "direction": "vertical"
@@ -393,16 +164,32 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ce40a8d150698ae2",
+  "active": "83dff51127774e41",
   "lastOpenFiles": [
-    "20250505 Daily Closeout.md",
-    "20250505 Lessons Learned – Icon Customization and Desktop Simplification.md",
-    "Daily Logs/20250505 Daily Log.md",
-    "Daily Diary/20250505 Daily Diary.md",
-    "Lessons Learned/20250504 Lessons Learned-Desktop Script Logic and HVAC.md",
-    "Daily Closeout/20250504 Daily Closeout-Final Tasks and Catchup.md",
-    "Daily Logs/20250504 Daily Log.md",
+    "Daily Closeout/20250501 Daily Closeout – LinkOS Goes Public.md",
+    "Daily Logs/20250430 Daily Log.md",
+    "Daily Logs/20250501 Daily Log.md",
+    "Lessons Learned/20250501 Lesson Learned- From Repair to Identity.md",
     "Reflections/20250504 Reflection; Reset Post Catching Up & Realigning.md",
+    "Daily Logs/20250504 Daily Log.md",
+    "Daily Closeout/20250504 Daily Closeout-Final Tasks and Catchup.md",
+    "Daily Diary/20250505 Daily Diary.md",
+    "Daily Logs/20250505 Daily Log.md",
+    "Projects/Quad Cert Documents/QuadCert Obsidian Structure.md",
+    "Daily Notes",
+    "Projects/Quad Cert Documents/QuadCertLabs",
+    "Daily Closeout/20250505 Daily Closeout.md",
+    "Daily Diary/20250509 Daily Diary.md",
+    "Projects/Study_Schedule_CySA_Net_PenTest_Week1_Prefilled.md",
+    "Projects/CYSA+NET+PENTEST+30Day.csv",
+    "Projects/CYSA+NET+PENTEST+30Day.csv.crdownload",
+    "Projects/Monthly_Cert_Prep_Rollup.md",
+    "Projects/Unconfirmed 688950.crdownload",
+    "Projects/Study_Schedule_CySA_Net_PenTest_Week1_Fixed.pdf",
+    "Projects/Study_Schedule_CySA_Net_PenTest_Week1_Fixed.pdf.crdownload",
+    "Projects/Unconfirmed 136035.crdownload",
+    "Lessons Learned/20250505 Lessons Learned – Icon Customization and Desktop Simplification.md",
+    "Lessons Learned/20250504 Lessons Learned-Desktop Script Logic and HVAC.md",
     "Projects/LinkOS",
     "Projects/LinkOS/LinkOS Core Tools.md",
     "Projects/LinkOS/LinkOS Mission & Vision  as of 20250501.md",
@@ -410,26 +197,10 @@
     "Projects/Link's Nexus Project",
     "Lessons Learned/20250502 Lessons Learned Refining Function Identity and Flow.md",
     "Lessons Learned/20250504 Lessons Learned Git Commit Clarity.md",
-    "Unconfirmed 171789.crdownload",
     "Lessons Learned/20250503 Lessons Learned Recalibrating After Disruptions.md",
-    "Unconfirmed 592941.crdownload",
     "Daily Closeout/20250503 Daily Closeout Off-Track but Not Off-Mission.md",
-    "Daily Closeout/Unconfirmed 211486.crdownload",
     "Lessons Learned/20250503 Lessons Learned Managing Distractions Delays and Recommitment.md",
-    "Lessons Learned/Unconfirmed 509740.crdownload",
     "Daily Closeout/20250503 Daily Closeout.md",
-    "Unconfirmed 400638.crdownload",
-    "Daily Logs/20250503 Daily Log.md",
-    "Daily Logs/Unconfirmed 820228.crdownload",
-    "Daily Logs/20250503 Daily Log – Transition Life and Research Day.md",
-    "Daily Logs/Unconfirmed 391976.crdownload",
-    "Lessons Learned/20250502 Lessons Learned Tool Selection for Beginner Distros.md",
-    "Lessons Learned/Unconfirmed 530529.crdownload",
-    "Lessons Learned/20250502 Lessons Learned Linux Usability and Branding Integration.md",
-    "Daily Logs/20250502 Daily Log.md",
-    "Daily Closeout/20250502 Daily Closeout.md",
-    "Daily Closeout/20250501 Daily Closeout — LinkOS Comes to Life.md",
-    "Lessons Learned/20250501 Lesson Learned- From Repair to Identity.md",
-    "Daily Logs/20250501 Daily Log.md"
+    "Daily Logs/20250503 Daily Log.md"
   ]
 }

@@ -1,0 +1,35 @@
+<hr>
+<p><strong>Tags:</strong> #linux-recovery #debian-xfce #kali-removal #lightdm #obsidian-catchup</p>
+<h2>What I Actually Did – Step-by-Step</h2>
+<ol>
+<li>Booted into Ubuntu Live Desktop using Ventoy</li>
+<li>Used <code>lsblk</code> to identify EFI and root partitions</li>
+<li>Mounted Debian into <code>/mnt</code> and chrooted</li>
+<li>Deleted <code>/boot/efi/EFI/kali</code> and GRUB themes</li>
+<li>Reinstalled GRUB under <code>debian-clean</code></li>
+<li>Used <code>efibootmgr</code> to delete broken boot entries</li>
+<li>Switched from GNOME (broken) to XFCE and LightDM</li>
+<li>Fully removed Kali packages with <code>apt purge</code></li>
+<li>Cleaned up orphaned themes and tasksel remnants</li>
+<li>Verified clean boot and XFCE login screen</li>
+</ol>
+<hr>
+<h2>What I Learned</h2>
+<ul>
+<li>How UEFI bootloaders are stored and registered</li>
+<li>The difference between GRUB themes and GRUB config</li>
+<li>The role of LightDM and how to set login background</li>
+<li>How to reboot into a stable desktop after GUI failure</li>
+<li>How to identify and remove foreign distro contamination</li>
+</ul>
+<hr>
+<h2>What to Review Later</h2>
+<ul>
+<li>How to set custom GRUB splash</li>
+<li>How <code>update-grub</code> scans kernels</li>
+<li>How <code>initrd</code> differs from kernel</li>
+<li>How <code>chroot</code> can be used for almost any repair</li>
+</ul>
+<hr>
+<h2>Note</h2>
+<p>This recovery spanned multiple reboots, two operating systems, and both CLI and graphical tools. AI helped structure it all — but <em>I</em> did the hard thinking.</p>

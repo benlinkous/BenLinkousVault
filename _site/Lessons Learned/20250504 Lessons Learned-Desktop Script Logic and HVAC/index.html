@@ -1,0 +1,43 @@
+<h1>20250504 Lessons Learned – Desktop Script Logic and HVAC</h1>
+<h2>🔧 Technical Lessons – XFCE Scripting and Plank Integration</h2>
+<h3>1. <code>.desktop</code> Files Must Point to Valid Paths</h3>
+<p>If a <code>.desktop</code> file's <code>Exec</code> path targets a non-existent directory, XFCE will block drag-and-drop behavior and display &quot;Failed to open&quot; on launch. All folders (Red, Purple, Blue) must exist prior to icon use.</p>
+<h3>2. Use <code>$HOME</code> Instead of <code>$USER_HOME</code> in Scripts</h3>
+<p>Shell variables like <code>$USER_HOME</code> aren't automatically defined outside of scripts, which caused errors when trying to copy <code>.desktop</code> files for Plank. Replacing with <code>$HOME</code> fixed the issue.</p>
+<h3>3. <code>xfconf-query</code> Requires <code>--create</code> for New XFCE Properties</h3>
+<p>Wallpaper settings, icon layout modes, and other properties must use the <code>--create</code> flag with <code>xfconf-query</code> if the property hasn’t been set before. Omitting it results in silent failure.</p>
+<h3>4. Icon Layout Is Stored Separately in <code>icons.screen0.rc</code></h3>
+<p>Visual icon alignment is controlled by <code>~/.config/xfce4/desktop/icons.screen0.rc</code>. This file must be captured after final positioning and included in <code>/etc/skel</code> for ISO-based user replication.</p>
+<hr>
+<h2>🧰 Scripting and ISO Preparation</h2>
+<ul>
+<li>Scripts must include fallback creation of required folders and launchers.</li>
+<li>Desktop alignment needs to be set manually once, then persisted through <code>/etc/skel</code>.</li>
+<li>Combining Plank, XFCE settings, and prebuilt folders yields a clean, replicable LinkOS desktop for Red, Blue, and Purple teams.</li>
+</ul>
+<hr>
+<h2>🏠 Real-World Insight – HVAC Evaluation</h2>
+<h3>Summary:</h3>
+<ul>
+<li>HVAC system (2006) is well beyond its life span.</li>
+<li>Blower malfunctions, refrigerant insulation is missing, electrical splices exposed.</li>
+<li>Full system replacement is the cost-effective option, despite repair viability.</li>
+</ul>
+<h3>Cost Lessons:</h3>
+<ul>
+<li>Repair range: $1,950 – $4,550 (mostly labor)</li>
+<li>Low-end replacement: $5,400 – $8,150</li>
+<li>High-efficiency replacement: $7,500 – $13,500+</li>
+</ul>
+<p>This reaffirms that replacing critical systems early may yield both resale and long-term reliability advantages.</p>
+<hr>
+<h2>🤖 AI/Workflow Lesson – ChatGPT as a Multi-Tasking Partner</h2>
+<p>ChatGPT supported:</p>
+<ul>
+<li>Linux desktop troubleshooting</li>
+<li>Scripting logic development</li>
+<li>HVAC diagnostics and estimate formatting</li>
+<li>GitHub commit reminders and file management</li>
+<li>Professional-grade summary formatting for contractors and record-keeping</li>
+</ul>
+<p>The ability to pivot between infrastructure and real-life problem solving within a single day showcases AI as an all-domain productivity partner.</p>

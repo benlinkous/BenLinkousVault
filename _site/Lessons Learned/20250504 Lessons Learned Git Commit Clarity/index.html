@@ -1,0 +1,28 @@
+<h2>🧠 Lessons Learned – Git Commit Clarity</h2>
+<h3>🔍 Topic</h3>
+<p><strong>Understanding Full Vault Commits in Git for Obsidian</strong></p>
+<h3>💡 Insight</h3>
+<p>Today marked a breakthrough in workflow simplicity. Instead of committing individual Markdown files one by one, Link used the universal command:</p>
+<pre><code class="language-bash">git add .
+</code></pre>
+<p>to stage all changes in the Obsidian vault — a powerful way to commit everything updated during the day, including:</p>
+<ul>
+<li>Manually written journal entries</li>
+<li>AI-generated logs</li>
+<li>Configuration or link changes</li>
+<li>New files and deletions</li>
+</ul>
+<p>This was followed by a single commit and push, ensuring all work was versioned and backed up to GitHub with one command sequence.</p>
+<h3>🔧 Why It Matters</h3>
+<ul>
+<li><strong>Saves time:</strong> Reduces need to remember every file edited.</li>
+<li><strong>Keeps you safe:</strong> All changes get tracked, even ones you forgot about.</li>
+<li><strong>Simplifies routine:</strong> Forms a daily habit that pairs perfectly with structured learning.</li>
+</ul>
+<h3>✅ New Habit</h3>
+<p>Use this command flow for daily commits:</p>
+<pre><code class="language-bash">cd /path/to/obsidian-vault
+git add .
+git commit -m &quot;Update notes for YYYY-MM-DD&quot;
+git push origin main
+</code></pre>

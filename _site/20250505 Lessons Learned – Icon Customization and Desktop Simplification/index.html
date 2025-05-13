@@ -1,0 +1,46 @@
+<h2>20250505 Lessons Learned – Icon Customization and Desktop Simplification</h2>
+<h3>1. Desktop Clutter Reduction Matters</h3>
+<ul>
+<li>
+<p>Switching to a dock-only design improves usability and aesthetic consistency.</p>
+</li>
+<li>
+<p>Having no icons on the desktop forces more deliberate organization and reinforces tool purpose.</p>
+</li>
+</ul>
+<h3>2. Icon Path Accuracy is Critical</h3>
+<ul>
+<li>
+<p>Misaligned <code>Icon=</code> paths in <code>.desktop</code> files cause fallbacks and confusion.</p>
+</li>
+<li>
+<p>Absolute paths like <code>/home/ben/Pictures/LinkOS/redteam.png</code> must be verified manually.</p>
+</li>
+</ul>
+<h3>3. Plank Scaling Isn’t Plug-and-Play</h3>
+<ul>
+<li>
+<p>Changing <code>IconSize</code> in <code>dock.theme</code> has no effect unless theming and cache issues are addressed.</p>
+</li>
+<li>
+<p>Restarting Plank or clearing icon cache is often required to see visual updates.</p>
+</li>
+</ul>
+<h3>4. Design Consistency Affects Workflow</h3>
+<ul>
+<li>
+<p>Matching all icons to the same visual standard (e.g., Brave-style emblem) enhances focus and recognition.</p>
+</li>
+<li>
+<p>Including symbolic motifs like deltas, chains, and flames supports brand coherence.</p>
+</li>
+</ul>
+<h3>5. Visual Setup Prepares the Ground for Automation</h3>
+<ul>
+<li>
+<p>A consistent visual layer makes <code>.desktop</code> scripting and ISO building much easier.</p>
+</li>
+<li>
+<p>Today’s polish sets the stage for persistent configuration via <code>/etc/skel</code> and Git control.</p>
+</li>
+</ul>

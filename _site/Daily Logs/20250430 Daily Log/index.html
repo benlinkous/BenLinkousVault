@@ -1,0 +1,34 @@
+<h1>🧠 AI Learning Journey Log</h1>
+<p><strong>Date:</strong> 2025-04-30<br>
+<strong>Tags:</strong> #system-recovery #debian-xfce #grub-fix #kali-removal #ai-assisted #obsidian-pending</p>
+<hr>
+<h2>🧩 Focus</h2>
+<p>Recover Debian XFCE system after Kali Linux contamination (repos + upgrade). Full rescue from bootloader corruption, desktop crashes, and theme conflicts.</p>
+<hr>
+<h2>✅ What Was Accomplished</h2>
+<ul>
+<li>Rescued non-booting system (manual GRUB)</li>
+<li>Mounted and chrooted into Debian using Ubuntu Live USB</li>
+<li>Reinstalled GRUB into clean EFI bootloader</li>
+<li>Replaced broken GNOME session with XFCE</li>
+<li>Purged all Kali packages, themes, branding, and GRUB remnants</li>
+<li>Verified full boot into clean Debian XFCE</li>
+<li>Restored LightDM login screen (to be themed next)</li>
+</ul>
+<hr>
+<h2>⛏️ Timeline of Key Events</h2>
+<h3>GRUB Rescue:</h3>
+<ul>
+<li>Manual boot attempts via <code>grub&gt;</code> shell</li>
+<li>Identified correct Debian root partition: <code>/dev/nvme0n1p2</code></li>
+<li>Mounted and chrooted from Ubuntu Live</li>
+<li>Installed GRUB to <code>/boot/efi</code> under new ID <code>debian-clean</code></li>
+<li>Created GRUB config with <code>update-grub</code></li>
+</ul>
+<h3>GNOME Failure &amp; XFCE Pivot:</h3>
+<ul>
+<li>Persistent “Oh no!” screen from broken GNOME</li>
+<li>Installed XFCE with:<pre><code class="language-bash">sudo apt install xfce4 lightdm
+</code></pre>
+</li>
+</ul>
