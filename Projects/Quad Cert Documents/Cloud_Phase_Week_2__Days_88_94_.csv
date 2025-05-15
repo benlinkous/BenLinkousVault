@@ -1,0 +1,8 @@
+Day,Title,Cert Exam Objective,Main Topics,Tools Used
+Day 88,Cloud+ Architecture & Design Principles,CompTIA Cloud+ CV0-003: 1.1 - Compare and contrast the different types of cloud models,"Cloud architecture types, service deployment, elasticity, availability","Obsidian, diagrams.net, GitHub"
+Day 89,AWS IAM Advanced: Roles & Federation,AWS CCP: Understand the AWS shared responsibility model and IAM concepts,"IAM roles, federated access, MFA, policy writing","AWS Console, IAM, JSON Policy Editor, Obsidian, GitHub"
+Day 90,Azure AD & Role-Based Access Control (RBAC),"AZ-900: Describe identity, governance, privacy, and compliance features","Azure Active Directory, RBAC, role assignments, permissions","Azure Portal, PowerShell, Obsidian, GitHub"
+Day 91,GCP IAM & Service Accounts,"Google ACE: Set IAM policies at the project, folder, and organization level","Service accounts, scopes, IAM binding with gcloud CLI","GCP Console, gcloud CLI, Obsidian, GitHub"
+Day 92,"Linux+: Users, Groups, and Permissions",CompTIA Linux+ XK0-005: 1.2 - Manage users and groups,"useradd, groupmod, sudoers, chown/chmod, ACLs","Debian Terminal, Obsidian, GitHub"
+Day 93,"AWS Storage: EBS, S3, Glacier",AWS CCP: Identify AWS storage services and use cases,"Block vs object storage, S3 lifecycle, EBS snapshots, Glacier vaults","AWS Console, EC2, S3, Obsidian, GitHub"
+Day 94,"Azure Storage: Blob, File, Disk",AZ-900: Describe core Azure services including storage,"Blob tiers, access levels, managed disks, storage account configuration","Azure Portal, Azure CLI, Obsidian, GitHub"

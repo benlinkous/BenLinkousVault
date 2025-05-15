@@ -1,0 +1,8 @@
+Day,Title,Cert Exam Objective,Main Topics,Tools Used
+Day 109,GCP Monitoring and Cloud Operations Suite,Google ACE: Monitor cloud resources using Cloud Monitoring and Logging,"Cloud Monitoring, Cloud Logging, dashboards, uptime checks","GCP Console, gcloud CLI, Obsidian, GitHub"
+Day 110,Intro to Kubernetes and Container Orchestration,CompTIA Cloud+: 3.4 - Summarize orchestration concepts,"Kubernetes components, cluster architecture, pods vs services","Minikube, kubectl, Obsidian, GitHub"
+Day 111,Deploying Apps with Kubernetes on Docker Desktop,CompTIA Cloud+: 3.5 - Deploy and manage container orchestration systems,"kubectl apply, service exposure, port-forwarding","Docker Desktop, kubectl, Obsidian, GitHub"
+Day 112,Kubernetes on AWS (EKS) Basics,AWS SysOps: Deploy and manage containers using Amazon EKS,"EKS cluster setup, node groups, IAM roles for service accounts","AWS Console, eksctl, kubectl, Obsidian, GitHub"
+Day 113,Kubernetes on Azure (AKS) Basics,AZ-104: Manage Azure Kubernetes Service (AKS),"AKS cluster provisioning, node pools, kubectl config","Azure CLI, Azure Portal, kubectl, Obsidian, GitHub"
+Day 114,Kubernetes on GCP (GKE) Basics,Google ACE: Deploy and manage workloads with GKE,"GKE cluster creation, node pool scaling, deploying apps","GCP Console, gcloud CLI, kubectl, Obsidian, GitHub"
+Day 115,Cloud Cost Management and Billing Tools,Cloud Essentials+: 3.3 - Explain cloud billing and pricing models,"AWS Pricing Calculator, Azure Cost Management, GCP Billing Explorer","AWS, Azure, GCP Billing Dashboards, Obsidian, GitHub"

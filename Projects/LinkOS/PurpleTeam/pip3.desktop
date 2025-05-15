@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=pip3
+Exec=pip3
+Icon=utilities-terminal
+Terminal=true
+Type=Application
+Categories=Utility;

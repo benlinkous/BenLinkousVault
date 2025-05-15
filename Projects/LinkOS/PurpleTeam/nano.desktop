@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=nano
+Exec=nano
+Icon=utilities-terminal
+Terminal=true
+Type=Application
+Categories=Utility;

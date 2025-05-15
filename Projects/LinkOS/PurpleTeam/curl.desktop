@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=curl
+Exec=curl --version
+Icon=utilities-terminal
+Terminal=true
+Type=Application
+Categories=Utility;

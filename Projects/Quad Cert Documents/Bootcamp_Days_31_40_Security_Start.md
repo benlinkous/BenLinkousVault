@@ -1,0 +1,2 @@
+| Day   | Project Title   | Exam Objective   | Description   | Tool(s) Used   |
+|-------|-----------------|------------------|---------------|----------------|

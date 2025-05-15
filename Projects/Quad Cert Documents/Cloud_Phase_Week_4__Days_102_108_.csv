@@ -1,0 +1,8 @@
+Day,Title,Cert Exam Objective,Main Topics,Tools Used
+Day 102,Linux+: Working with System Services and Cron Jobs,CompTIA Linux+ XK0-005: 2.2 - Manage and configure system services,"systemd, cron, timers, journald","Debian Terminal, systemctl, journalctl, Obsidian, GitHub"
+Day 103,AWS VPC Networking and Security Groups,AWS CCP: Define virtual networks and security features,"Subnets, route tables, security groups, NACLs","AWS Console, VPC Dashboard, Obsidian, GitHub"
+Day 104,"Azure Networking: VNets, NSGs, and Peerings",AZ-900: Describe core networking resources in Azure,"VNets, subnets, NSGs, peering concepts","Azure Portal, Azure CLI, Obsidian, GitHub"
+Day 105,"GCP Networking: VPCs, Firewalls, Routes",Google ACE: Configure and manage cloud network components,"Custom VPC, firewall rules, routing tables","GCP Console, gcloud CLI, Obsidian, GitHub"
+Day 106,Cloud Storage Security: Encryption & Access,CompTIA Cloud+: 2.3 - Implement appropriate security controls,"Encryption at rest/in transit, access policies, versioning","AWS S3, Azure Blob, GCP Buckets, Obsidian, GitHub"
+Day 107,Cloud Monitoring: AWS CloudWatch and Logs,"AWS SysOps: Implement monitoring, metrics, and logging","CloudWatch metrics, alarms, custom dashboards","AWS CloudWatch, Obsidian, GitHub"
+Day 108,Azure Monitor and Log Analytics,AZ-104: Monitor resources using Azure Monitor,"Azure Monitor, metrics, workbooks, log queries","Azure Monitor, KQL, Obsidian, GitHub"

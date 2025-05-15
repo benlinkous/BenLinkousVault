@@ -1,0 +1,11 @@
+Day,Project Title,Exam Objective,Description,Tool(s) Used
+61,Risk Management Frameworks Overview,CAS-005 1.1,"Compare NIST RMF, ISO 27001, COBIT. Document in Obsidian.","Obsidian, GitHub"
+61,Identify Regulatory Requirements,CAS-005 1.2,"Review HIPAA, PCI-DSS, GDPR, and how they impact infosec programs.",Obsidian
+61,Policy and Governance Creation,CAS-005 1.3,"Draft AUP, data classification policy, and IR charter.",Obsidian
+61,Integrate Security Controls into Business Processes,CAS-005 1.4,"Map controls into onboarding, procurement, and cloud adoption.","Google Workspace, GitHub"
+62,Use GRC Tool to Model Risk,CAS-005 1.5,Install and use OpenGRC or document a mock setup in Obsidian.,"OpenGRC, Obsidian"
+62,Third Party Risk Management,CAS-005 1.6,Create a vendor assessment checklist for cloud vendors.,Obsidian
+62,Perform Business Impact Analysis,CAS-005 1.7,Draft RTO/RPO for a simulated breach scenario.,Obsidian
+62,Analyze Legal and Privacy Implications,CAS-005 1.8,Differentiate between local and global data sovereignty models.,Obsidian
+63,Zero Trust and Microsegmentation Models,CAS-005 2.1,Diagram zero trust network using Lucidchart or draw.io.,"draw.io, Obsidian"
+63,Design Network Segmentation Strategy,CAS-005 2.2,"Plan VLAN, DMZ, and firewall architecture for multi-tier system.","iptables, nftables"

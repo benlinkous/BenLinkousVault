@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=python3
+Exec=python3
+Icon=utilities-terminal
+Terminal=true
+Type=Application
+Categories=Utility;

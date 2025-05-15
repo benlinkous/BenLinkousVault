@@ -1,0 +1,8 @@
+Day,Title,Cert Exam Objective,Main Topics,Tools Used
+Day 128,Advanced Cost Optimization Strategies (Multi-Cloud),"CloudNetX: Optimize cloud spend across AWS, Azure, and GCP","Spot instances, reserved instances, cost calculators, budgets, alerting","AWS Pricing Calculator, Azure Cost Management, GCP Billing, Obsidian, GitHub"
+Day 129,Scaling Strategies: Auto Scaling and Load Testing,CloudNetX: Design for elasticity and performance efficiency,"Auto Scaling groups, load tests, scaling policies, stress simulation","AWS ASG, Azure VMSS, Apache JMeter, Obsidian"
+Day 130,Cloud Architecture Review: Single vs Multi-Region Designs,"CloudNetX: Architect scalable, resilient infrastructure","HA design, RTO/RPO, DNS routing, multi-region failover","Diagrams.net, AWS Route 53, Azure Traffic Manager, GCP Load Balancer, Obsidian"
+Day 131,Container Security and Image Scanning,CloudNetX: Secure containerized deployments,"Vulnerability scanning, trusted registries, runtime security","Docker, Trivy, AWS ECR, Azure Defender, GCP Artifact Registry, Obsidian"
+Day 132,Kubernetes Security Best Practices,CloudNetX: Secure multi-tenant Kubernetes clusters,"RBAC, PodSecurityPolicy, secrets management, network policies","kubectl, K9s, OPA Gatekeeper, Obsidian, GitHub"
+Day 133,DevSecOps Pipeline with GitHub Actions,CloudNetX: Integrate security in CI/CD pipelines,"SAST, container scanning, GitHub security workflow templates","GitHub Actions, Trivy, CodeQL, Obsidian"
+Day 134,Threat Modeling and Cloud Security Posture Management,CloudNetX: Assess and manage cloud security risks,"STRIDE, CSPM tools, shared responsibility walkthroughs","Threat Dragon, Prisma Cloud (demo), Obsidian, GitHub"

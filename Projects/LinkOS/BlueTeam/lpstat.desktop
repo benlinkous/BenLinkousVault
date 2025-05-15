@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=lpstat
+Exec=lpstat -p
+Icon=utilities-terminal
+Terminal=true
+Type=Application
+Categories=Utility;

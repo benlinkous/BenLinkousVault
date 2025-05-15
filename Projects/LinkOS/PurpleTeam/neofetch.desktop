@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=neofetch
+Exec=neofetch
+Icon=utilities-terminal
+Terminal=true
+Type=Application
+Categories=Utility;

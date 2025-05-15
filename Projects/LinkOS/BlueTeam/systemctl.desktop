@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=systemctl
+Exec=systemctl status
+Icon=utilities-terminal
+Terminal=true
+Type=Application
+Categories=Utility;

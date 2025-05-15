@@ -1,0 +1,54 @@
+# LinkOS Tool Verification Report
+Generated on: $(date)
+- ❌ ansible is NOT installed
+- ❌ autopsy is NOT installed
+- ✅ bash is installed at $(which bash)
+- ❌ clamav is NOT installed
+- ✅ curl is installed at $(which curl)
+- ✅ dig is installed at $(which dig)
+- ❌ docker is NOT installed
+- ❌ docker-compose is NOT installed
+- ❌ fail2ban is NOT installed
+- ✅ git is installed at $(which git)
+- ✅ gpg is installed at $(which gpg)
+- ✅ grep is installed at $(which grep)
+- ❌ hashdeep is NOT installed
+- ❌ hydra is NOT installed
+- ❌ impacket-scripts is NOT installed
+- ❌ inxi is NOT installed
+- ✅ ip is installed at $(which ip)
+- ❌ ipcalc is NOT installed
+- ❌ john is NOT installed
+- ✅ lpstat is installed at $(which lpstat)
+- ❌ lynis is NOT installed
+- ✅ nano is installed at $(which nano)
+- ❌ neofetch is NOT installed
+- ✅ netcat is installed at $(which netcat)
+- ✅ nmap is installed at $(which nmap)
+- ✅ openssl is installed at $(which openssl)
+- ❌ openvas is NOT installed
+- ❌ paramiko is NOT installed
+- ✅ pip3 is installed at $(which pip3)
+- ✅ python3 is installed at $(which python3)
+- ✅ rsync is installed at $(which rsync)
+- ❌ scout is NOT installed
+- ❌ snort is NOT installed
+- ❌ sqlite3 is NOT installed
+- ❌ sqlmap is NOT installed
+- ✅ sudo is installed at $(which sudo)
+- ❌ suricata is NOT installed
+- ✅ systemctl is installed at $(which systemctl)
+- ✅ tar is installed at $(which tar)
+- ❌ tcpdump is NOT installed
+- ❌ terraform is NOT installed
+- ✅ traceroute is installed at $(which traceroute)
+- ❌ tshark is NOT installed
+- ❌ ufw is NOT installed
+- ✅ unzip is installed at $(which unzip)
+- ❌ vault is NOT installed
+- ❌ volatility is NOT installed
+- ✅ wget is installed at $(which wget)
+- ❌ wireshark is NOT installed
+- ✅ xrandr is installed at $(which xrandr)
+- ❌ zeek is NOT installed
+- ❌ zip is NOT installed

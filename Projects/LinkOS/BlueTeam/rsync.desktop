@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=rsync
+Exec=rsync --version
+Icon=utilities-terminal
+Terminal=true
+Type=Application
+Categories=Utility;

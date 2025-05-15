@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=traceroute
+Exec=traceroute
+Icon=utilities-terminal
+Terminal=true
+Type=Application
+Categories=Utility;

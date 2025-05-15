@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=hashdeep
+Exec=hashdeep
+Icon=utilities-terminal
+Terminal=true
+Type=Application
+Categories=Utility;

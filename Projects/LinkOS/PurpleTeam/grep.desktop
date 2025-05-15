@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=grep
+Exec=grep --version
+Icon=utilities-terminal
+Terminal=true
+Type=Application
+Categories=Utility;

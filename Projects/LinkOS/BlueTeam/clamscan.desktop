@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=clamscan
+Exec=clamscan
+Icon=utilities-terminal
+Terminal=true
+Type=Application
+Categories=Utility;

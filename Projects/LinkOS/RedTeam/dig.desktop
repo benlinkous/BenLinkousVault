@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=dig
+Exec=dig
+Icon=utilities-terminal
+Terminal=true
+Type=Application
+Categories=Utility;

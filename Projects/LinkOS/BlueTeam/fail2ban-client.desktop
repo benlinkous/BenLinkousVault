@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=fail2ban-client
+Exec=sudo fail2ban-client status
+Icon=utilities-terminal
+Terminal=true
+Type=Application
+Categories=Utility;

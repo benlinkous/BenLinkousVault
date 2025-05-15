@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=git
+Exec=git --version
+Icon=utilities-terminal
+Terminal=true
+Type=Application
+Categories=Utility;

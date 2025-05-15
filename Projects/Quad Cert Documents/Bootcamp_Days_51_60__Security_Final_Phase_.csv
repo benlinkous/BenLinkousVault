@@ -1,0 +1,34 @@
+Day,Project Title,Exam Objective,Description,Tool(s) Used
+51,Configure IPSec VPN,N10-009 6.1,Deploy and test a VPN tunnel between hosts.,"StrongSwan, VPN"
+51,Secure SNMP and Syslog,N10-009 6.2,"Implement SNMPv3, configure logging services.","snmpd, rsyslog"
+51,Use TLS and Certificate Validation,N10-009 6.3,"Enable HTTPS, verify certificates.","openssl, curl"
+52,Assess Recovery Plans,CS0-003 7.1,Compare backup strategies and restoration priorities.,
+52,Tabletop Exercise – Ransomware,CS0-003 7.2,Walk through a ransomware response tabletop.,
+52,Document BIA and RTO/RPO,CS0-003 7.3,Build a BIA document in Obsidian for your home lab.,
+53,Bypass Client-Side Controls,PT0-002 4.6,Use Burp Suite or dev tools to manipulate client inputs.,"Burp Suite, dev tools"
+53,Evade Detection and AV Tools,PT0-002 4.7,Use msfvenom or obfuscation techniques.,msfvenom
+53,Create Custom Payloads,PT0-002 4.8,Build and encode a payload. (THM: Malware Dev),
+54,Full Attack Simulation – Internal,Capstone,Conduct a complete recon → privilege escalation lab.,"nmap, enum4linux, linpeas, hydra"
+54,Blue Team Response Drill,Capstone,Detect and document red team activity in Wazuh.,
+54,Joint Red-Blue Report,Capstone,Write full compromise and response report collaboratively.,
+55,Review Tools Used from Days 31–54,Capstone,List and categorize all tools by function and color team.,
+55,Update `/etc/skel` Layout in LinkOS,LinkOS Build,Modify desktop setup and tool categories.,
+55,Push Final Security Phase Notes,GitHub,Push all work logs to a repo titled `Security_Bootcamp_Notes`.,
+55,Review GitHub Pages Option,GitHub,Enable Pages to showcase portfolio if desired.,
+56,Network+ Domain 4–5 Quiz,N10-009 Review,"Review routing, wireless, and network tools.",
+56,Network+ Mock Exam,N10-009 Final,Take full-length practice test and document scores.,
+56,Clean Up Network+ Notes in Obsidian,Capstone,"Tag, link, and summarize all related entries.",
+57,CySA+ Domain 4–7 Quiz,CS0-003 Review,"Review automation, IR, governance.",
+57,CySA+ Mock Exam,CS0-003 Final,Complete full-length simulation.,
+57,SIEM Rule Tuning Lab,CS0-003 Capstone,Adjust Wazuh rulebase to eliminate false positives.,
+58,PenTest+ Quiz and Knowledge Check,PT0-002 Review,Cover all four domains with mixed scenario quiz.,
+58,Final Red Team Lab,PT0-002 Final,"Conduct scan, exploit, post-exploit chain.",
+58,PenTest+ Mock Exam,PT0-002 Final,Timed and scored full exam-style challenge.,
+59,Final Git Commit and Portfolio Push,Capstone,Sync everything to GitHub and tag last commit.,
+59,Create Table of Contents in Obsidian,Obsidian,"Index every entry, sorted by domain.",
+59,Toolchain Reference Document,ZeroDayOS,"Write markdown file of tools, syntax, use cases.",
+59,LinkOS Version Snapshot,LinkOS,Snapshot your VM with everything installed.,
+60,Take 3 Mini Practice Tests,Review,"20 questions each from Net+, CySA+, PenTest+.",
+60,Write Learning Reflection,Capstone,Draft a summary of what you learned and what’s next.,
+60,Prep Notes for SecurityX Phase,Next Phase,Set up folders and vault templates for CASP+.,
+60,Mark Day 60 with GitHub Tag,Capstone,Final commit before SecurityX starts.,

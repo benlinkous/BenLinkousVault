@@ -1,0 +1,31 @@
+Day,Project Title,Exam Objective,Description,Tool(s) Used
+71,Threat Hunt: Beaconing Behavior,CAS-005 Multi,Use logs to detect a beaconing malware implant.,"Wazuh, Obsidian"
+71,Remediation and Containment Drill,CAS-005 Multi,"Isolate host, clean infection, validate patch.","ClamAV, Ansible"
+71,Document Response Workflow,CAS-005 Multi,Write full incident summary in Obsidian.,Obsidian
+72,Federated Login Simulation,CAS-005 Multi,Configure or diagram OAuth2 + MFA login process.,"Keycloak, Obsidian"
+72,"Encrypt, Sign, and Validate Files",CAS-005 Multi,Use GPG/OpenSSL to protect and verify data.,"OpenSSL, GPG"
+72,Public/Private Key Lab Reflection,CAS-005 Multi,Describe how your team handles key rotation securely.,Obsidian
+73,Design Secure Enterprise Architecture,CAS-005 Multi,Create diagram for 3-tier app with secure boundaries.,draw.io
+73,Secure Cloud App Deployment Planning,CAS-005 Multi,Design secure CI/CD pipeline in AWS/GitHub.,"GitHub Actions, AWS"
+73,Draft Security SOP Playbook,CAS-005 Multi,"Write procedures for patching, auth reset, and breach response.",Obsidian
+74,Analyze Memory Dump for IOC,CAS-005 Multi,Use Volatility to extract running processes.,Volatility
+74,Timeline Investigation: Windows Host,CAS-005 Multi,Use KAPE or open tools to review file access timelines.,"KAPE, Autopsy"
+74,Prepare Chain of Custody Document,CAS-005 Multi,Write up evidence handling notes in Obsidian.,Obsidian
+75,Review Installed Tools on LinkOS,CAS-005 Capstone,List and categorize tools by team color and exam alignment.,"ZeroDayOS, bash"
+75,Customize XFCE Layout and Panels,LinkOS,Create workspace defaults for SOC analyst flow.,"XFCE, bash"
+75,Review `/etc/skel` and .desktop Files,LinkOS,Verify desktop shortcuts and structure for student version.,"/etc/skel, bash"
+76,Organize Obsidian Vault by Phase,Capstone,"Group notes into folders: Basics, Sec, Cloud, Data, PM.",Obsidian
+76,Push Final Markdown Logs to GitHub,Capstone,Backup your complete training history.,GitHub
+76,Create README and Repo Index,Capstone,Summarize what was covered and link to top projects.,GitHub
+77,Timed SecurityX Practice Test,CAS-005 Review,Attempt a full timed test simulation.,Exam engine
+77,Written Justification Challenge,CAS-005 Review,Write secure architecture justification for a CISO.,Obsidian
+77,Critical Thinking Case Review,CAS-005 Review,"Given a scenario, identify gaps and propose solutions.",Obsidian
+78,Prepare 3-Minute Project Demo,Portfolio,Record yourself explaining a key project.,"Camera, GitHub"
+78,Write Final Reflection Blog Entry,Portfolio,"Summarize learning, tools, and goals.",Obsidian
+78,Create Resume and Skills Grid,Career,Map certifications to skill tags for resume/LinkedIn.,"Markdown, PDF"
+79,Take Final LinkOS Snapshot,Capstone,Create a clean ISO or snapshot for reuse.,"VirtualBox, bash"
+79,Validate Tools and Launchers,Capstone,Test Red/Blue/Purple tool icons and scripts.,LinkOS
+79,Upload ISO and Project Docs to Drive,Backup,Save your environment externally.,Cloud Storage
+80,Plan PMP Phase Layout,Planning,Sketch outline for final 20 days of Project Management.,Obsidian
+80,Tag GitHub Repo Final Commit,Capstone,Mark Day 80 as official end of SecurityX track.,GitHub
+80,Celebrate and Archive Learning Artifacts,Milestone,Review and acknowledge accomplishments.,Obsidian

@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=nft
+Exec=sudo nft list ruleset
+Icon=utilities-terminal
+Terminal=true
+Type=Application
+Categories=Utility;

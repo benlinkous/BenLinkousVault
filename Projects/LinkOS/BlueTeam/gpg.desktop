@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=gpg
+Exec=gpg --version
+Icon=utilities-terminal
+Terminal=true
+Type=Application
+Categories=Utility;

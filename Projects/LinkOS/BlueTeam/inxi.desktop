@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=inxi
+Exec=inxi -Fxz
+Icon=utilities-terminal
+Terminal=true
+Type=Application
+Categories=Utility;

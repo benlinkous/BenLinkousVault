@@ -1,0 +1,8 @@
+Day,Title,Cert Exam Objective,Main Topics,Tools Used
+Day 95,"GCP Storage: Buckets, Classes, and Lifecycle",Google ACE: Manage GCP storage resources and policies,"Storage classes, object versioning, lifecycle policies","GCP Console, gcloud CLI, Obsidian, GitHub"
+Day 96,Intro to Docker and Container Concepts,CompTIA Cloud+: 3.2 - Deploy and manage containers using appropriate tools,"Docker installation, images, containers vs VMs","Docker CLI, Debian Terminal, Obsidian, GitHub"
+Day 97,Building Docker Images and Docker Hub,CompTIA Cloud+: 3.3 - Use appropriate orchestration tools,"Dockerfile creation, image builds, Docker Hub usage","Docker, Docker Hub, Debian Terminal, Obsidian, GitHub"
+Day 98,CI/CD Basics with GitHub Actions,CompTIA Cloud+: 4.2 - Apply appropriate automation tools,"YAML syntax, GitHub Actions workflows, build/test pipeline","GitHub Actions, VS Code, Obsidian, GitHub"
+Day 99,CI/CD Pipeline with Azure DevOps,AZ-400: Design a CI/CD pipeline for app delivery,"Azure Repos, Pipelines, DevOps Projects overview","Azure DevOps, Obsidian, GitHub"
+Day 100,CI/CD Pipeline with Google Cloud Build,Google ACE: Implement CI/CD pipelines using Cloud Build,"Triggers, build steps, source repos","Google Cloud Build, gcloud CLI, Obsidian, GitHub"
+Day 101,CI/CD Pipeline with AWS CodePipeline,AWS DevOps Engineer: Implement and manage CI/CD pipelines,"CodePipeline, CodeCommit, CodeBuild integration","AWS Console, CodePipeline, Obsidian, GitHub"

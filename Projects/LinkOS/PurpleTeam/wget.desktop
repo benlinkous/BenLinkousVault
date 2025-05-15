@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=wget
+Exec=wget --version
+Icon=utilities-terminal
+Terminal=true
+Type=Application
+Categories=Utility;

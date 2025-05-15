@@ -1,0 +1,8 @@
+Day,Title,Cert Exam Objective,Main Topics,Tools Used
+Day 135,CloudNetX Capstone Intro: Multi-Cloud Design Brief,CloudNetX: Translate stakeholder needs into technical cloud architectures,"Gathering requirements, constraints, business goals, compliance expectations","Obsidian, diagrams.net, Markdown templates, GitHub"
+Day 136,Design a 3-Tier Application for Multi-Cloud Deployment,CloudNetX: Architect hybrid application delivery solutions,"Frontend/backend/database design across AWS, Azure, GCP","Diagrams.net, AWS/Azure/GCP Consoles, Obsidian, GitHub"
+Day 137,Infrastructure as Code: Full App Deployment via Terraform,CloudNetX: Automate infrastructure with reusable IaC modules,"Modules, providers, variables, outputs, Terraform Cloud","Terraform CLI, GitHub, Obsidian"
+Day 138,Monitoring and Logging for Capstone Application,CloudNetX: Implement monitoring and centralized logging,"Metrics, logs, traces, alerts across providers","CloudWatch, Azure Monitor, GCP Operations, Obsidian"
+Day 139,Disaster Recovery and Backup Planning,CloudNetX: Implement resilient infrastructure and DR plans,"Snapshots, replicas, backup schedules, RTO/RPO validation","AWS Backup, Azure Recovery Services, GCP Snapshots, Obsidian"
+Day 140,"Security Review: IAM, Encryption, Audit Logs",CloudNetX: Evaluate the security posture of cloud environments,"IAM roles/policies, key management, audit trail validation","AWS IAM/CloudTrail, Azure AD/Key Vault, GCP IAM/Cloud Audit Logs"
+Day 141,Peer Review & GitHub Publication of Capstone,CloudNetX: Present cloud solution architecture for feedback,"Architecture diagrams, Obsidian write-up, GitHub README & structure","GitHub, Obsidian, Markdown preview, screen recording (optional)"
