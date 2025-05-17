@@ -1,0 +1,7 @@
+Day,Module,Activity,TryHackMe / Lab,Mapped Objectives,Tools Used
+1,System Orientation & Cyber Foundations,Set up LinkOS VM or base system and Obsidian vault,N/A (local setup),"ITF+ 1.1, 2.1 | A+ 220-1101 1.1 | Linux+ 1.1, 1.2","neofetch, inxi, bash, sudo"
+1,Linux CLI Basics,"Navigate file system, use ls, cd, mkdir, rm, mv, touch; create notes",Linux Fundamentals Part 1 (THM),"ITF+ 2.1 | A+ 220-1102 1.6 | Linux+ 1.1, 1.2, 2.1","bash, nano, grep"
+1,System Identity + Markdown Notes,"Run neofetch, inxi; document system specs and screenshots in Obsidian",Intro to Cybersecurity (THM),ITF+ 1.1 | A+ 1.3 | Linux+ 1.1,"neofetch, inxi, git"
+1,Networking Intro,"Check IP, DNS, routing; run ping, traceroute, dig; document findings",Linux Fundamentals + Network Security 101,ITF+ 2.3 | A+ 220-1101 2.2 | Security+ 1.1 | Linux+ 2.2,"ip, traceroute, dig, ping"
+1,Create System Report Script,Write and test a Bash script to generate a full system report,Custom / Simulation,"Linux+ 1.3, 2.2, 3.2 | ITF+ 4.2","bash, nano, grep, neofetch, inxi, date"
+1,End-of-Day Wrap-Up,Commit notes and script to Git; create Day 1 Markdown Summary,N/A,"ITF+ 1.1, 4.1 | A+ 1.1 | Linux+ 3.3","git, bash, markdown, Obsidian"

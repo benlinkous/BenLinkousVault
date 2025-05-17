@@ -1,133 +1,134 @@
-|   Day | Project Title                             | Exam Objective   | Description                                                                            | Tool(s) Used   |
-|------:|:------------------------------------------|:-----------------|:---------------------------------------------------------------------------------------|:---------------|
-|     1 | Understand Types of Computers and OS      | FC0-U71 1.1      | Research and document characteristics of desktop, laptop, server, and mobile OS.       | —              |
-|     1 | Set Up and Navigate File Systems          | FC0-U71 2.1      | Practice using file explorer and terminal on Linux and Windows.                        | —              |
-|     1 | File Types and Extensions Activity        | FC0-U71 2.2      | Create files of different types and examine file associations.                         | —              |
-|     1 | Command-Line Practice Lab                 | FC0-U71 2.3      | Use `cd`, `ls`, `mkdir`, and `nano` on Linux to manipulate directories and files.      | —              |
-|     2 | Networking Concepts Lab                   | FC0-U71 3.1      | Draw and label basic LAN and WAN diagrams; identify router and switch roles.           | —              |
-|     2 | Intro to Protocols and Ports              | FC0-U71 3.2      | Match common ports to services and test basic connectivity using `ping`, `traceroute`. | —              |
-|     2 | IP Addressing Basics                      | FC0-U71 3.3      | Identify private vs public IPs; use `ip a` and `ipconfig` to view configs.             | —              |
-|     2 | Network Troubleshooting Toolkit           | FC0-U71 3.4      | Use `ping`, `traceroute`, and `netstat` to identify network issues.                    | —              |
-|     3 | Hardware Basics Interactive Quiz          | FC0-U71 4.1      | Label PC components and identify their functions.                                      | —              |
-|     3 | Input and Output Devices Survey           | FC0-U71 4.2      | Inventory and classify I/O devices in your environment.                                | —              |
-|     3 | Storage Devices Comparison                | FC0-U71 4.3      | Compare HDD, SSD, NVMe with metrics like speed and capacity.                           | —              |
-|     3 | PC Setup and BIOS Walkthrough             | FC0-U71 4.4      | Explore BIOS/UEFI on a virtual machine; document settings.                             | —              |
-|     4 | Operating Systems Comparison              | FC0-U71 5.1      | Chart Linux, Windows, macOS features and installation types.                           | —              |
-|     4 | Application Management Practice           | FC0-U71 5.2      | Install and remove software using CLI and GUI.                                         | —              |
-|     4 | Mobile OS Security Review                 | FC0-U71 5.3      | List mobile OS settings that enforce device security.                                  | —              |
-|     4 | System Utilities Hands-On                 | FC0-U71 5.4      | Use Task Manager, Resource Monitor, and top on Linux to view system usage.             | —              |
-|     5 | Software Development Phases Overview      | FC0-U71 6.1      | Diagram the software development lifecycle (SDLC) and give an example for each phase.  | —              |
-|     5 | Programming Languages Comparison          | FC0-U71 6.2      | Compare compiled vs. interpreted languages and list use cases.                         | —              |
-|     5 | Logic and Flow Control in Code            | FC0-U71 6.3      | Write a basic script with conditionals and loops in Python.                            | Python3        |
-|     5 | Database Structure Walkthrough            | FC0-U71 6.4      | Create and query a basic SQLite database.                                              | —              |
-|     5 | IT Career Path Exploration                | FC0-U71 7.1      | Research roles like helpdesk, network admin, and cloud engineer.                       | —              |
-|     5 | Certifications and Career Goals           | FC0-U71 7.2      | Create a roadmap that includes CompTIA and cloud certifications.                       | —              |
-|     5 | IT Documentation Practice                 | FC0-U71 8.1      | Write clear steps for a process you completed this week.                               | —              |
-|     5 | Troubleshooting Methodology Lab           | FC0-U71 8.2      | Simulate a PC boot failure and document your troubleshooting steps.                    | —              |
-|     6 | Identify Laptop Components                | 220-1101 1.1     | Disassemble a laptop or use online simulator; identify battery, SSD, RAM.              | —              |
-|     6 | Compare Mobile Device Displays            | 220-1101 1.2     | Document LCD, OLED, touch displays and pros/cons.                                      | —              |
-|     6 | Mobile Device Connections Lab             | 220-1101 1.3     | Practice configuring Wi-Fi, Bluetooth, and tethering.                                  | —              |
-|     6 | Accessories and Ports Activity            | 220-1101 1.4     | Use USB-C, microUSB, and docking station functions.                                    | —              |
-|     6 | Configure Mobile OS Settings              | 220-1101 1.5     | Modify Android/iOS settings: VPN, updates, accessibility.                              | —              |
-|     6 | Mobile App Installation Task              | 220-1101 1.6     | Install and manage apps via Google Play or iOS App Store.                              | —              |
-|     6 | Mobile Security Settings Lab              | 220-1101 1.7     | Enable biometric login, screen locks, location permissions.                            | —              |
-|     7 | Compare Wireless Standards                | 220-1101 2.1     | Create a chart comparing 802.11 standards (a/b/g/n/ac/ax).                             | —              |
-|     7 | Wired Network Cabling Demo                | 220-1101 2.2     | Identify twisted pair, coax, and fiber with use cases.                                 | —              |
-|     7 | Networking Hardware Comparison            | 220-1101 2.3     | Document the roles of router, switch, hub, modem.                                      | —              |
-|     7 | IP Addressing Practice                    | 220-1101 2.4     | Convert between decimal and binary IP addresses.                                       | —              |
-|     7 | Ports and Protocols Matching Game         | 220-1101 2.5     | Match services like HTTP, FTP, SSH with their ports.                                   | —              |
-|     7 | SOHO Configuration Lab                    | 220-1101 2.6     | Set up a basic SOHO router and secure the network.                                     | —              |
-|     7 | Internet Connection Types                 | 220-1101 2.7     | Compare DSL, cable, satellite, fiber connections.                                      | —              |
-|     8 | Motherboard Component ID                  | 220-1101 3.1     | Label major motherboard components in a diagram.                                       | —              |
-|     8 | Compare RAM Types                         | 220-1101 3.2     | List DDR generations and speeds; identify form factors.                                | —              |
-|     8 | Install and Test Storage                  | 220-1101 3.3     | Use virtual or physical lab to install and benchmark SSD.                              | —              |
-|     8 | CPUs and Cooling Methods                  | 220-1101 3.4     | Research and document CPU packages, heat sinks, thermal paste.                         | —              |
-|     8 | Power Supplies and Wattage                | 220-1101 3.5     | Calculate PC power needs using PSU calculator.                                         | —              |
-|     8 | Custom Build Scenario                     | 220-1101 3.6     | Design builds for gaming, NAS, CAD, virtualization.                                    | —              |
-|     9 | Install Peripherals Lab                   | 220-1101 3.7     | Connect and test external monitors, printers, scanners.                                | —              |
-|     9 | Display Technologies Practice             | 220-1101 3.8     | Compare LED, IPS, OLED specs and features.                                             | —              |
-|     9 | Install and Configure Printers            | 220-1101 3.9     | Set up printer over USB and Wi-Fi, test duplex printing.                               | —              |
-|     9 | Printer Maintenance Task                  | 220-1101 3.10    | Replace toner, clean rollers, check print quality.                                     | —              |
-|    10 | Troubleshoot Display Issues               | 220-1101 4.1     | Simulate and fix resolution, brightness, and flickering.                               | —              |
-|    10 | Fix Network Connectivity                  | 220-1101 4.2     | Resolve IP conflict, no internet, DNS failure.                                         | —              |
-|    10 | Mobile Device Troubleshooting             | 220-1101 4.3     | Handle overheating, unresponsive screen, battery drain.                                | —              |
-|    10 | Printer Troubleshooting                   | 220-1101 4.4     | Diagnose jams, ghosting, blank pages, and offline errors.                              | —              |
-|    11 | Cloud Models Comparison                   | 220-1101 5.1     | Chart SaaS, IaaS, PaaS examples and use cases.                                         | —              |
-|    11 | Set Up a Local VM                         | 220-1101 5.2     | Create and configure a Linux VM in VirtualBox or KVM.                                  | —              |
-|    12 | Follow Safety Procedures                  | 220-1101 6.1     | Use anti-static equipment and safe handling techniques.                                | —              |
-|    12 | Proper Disposal Exercise                  | 220-1101 6.2     | Identify e-waste rules for batteries, drives, monitors.                                | —              |
-|    12 | Documentation Types                       | 220-1101 6.3     | Compare change logs, network maps, SOPs.                                               | —              |
-|    12 | Use Appropriate Tools                     | 220-1101 6.4     | Demonstrate use of multimeter, loopback plug, and cable tester.                        | —              |
-|    13 | Install Windows OS                        | 220-1102 1.1     | Install Windows 10/11 in a VM and document each step.                                  | —              |
-|    13 | Windows Features and Tools                | 220-1102 1.2     | Explore and demonstrate MMC, msconfig, services.msc.                                   | —              |
-|    13 | Command Line Utilities Practice           | 220-1102 1.3     | Use `ipconfig`, `ping`, `chkdsk`, and `tasklist`.                                      | —              |
-|    13 | Windows Settings Configuration            | 220-1102 1.4     | Modify system settings, language, display, and region.                                 | —              |
-|    13 | Control Panel Components                  | 220-1102 1.5     | Review functions of system, network, programs, devices.                                | —              |
-|    14 | System Utilities and Snapshots            | 220-1102 1.6     | Use System Restore and backup tools in Windows.                                        | —              |
-|    14 | Operating System Types                    | 220-1102 1.7     | Compare Windows, Linux, Android, iOS functionality.                                    | —              |
-|    14 | Install and Use Linux                     | 220-1102 1.8     | Install Ubuntu or Debian and verify networking.                                        | —              |
-|    14 | Scripting and Automation Basics           | 220-1102 1.9     | Write and run `.bat`, `.sh`, or `.ps1` scripts.                                        | —              |
-|    14 | Remote Access Tools                       | 220-1102 1.10    | Configure and test RDP, SSH, and VNC sessions.                                         | —              |
-|    15 | Security Threat Identification            | 220-1102 2.1     | Document malware types and threat actors.                                              | —              |
-|    15 | Secure Workstation Setup                  | 220-1102 2.2     | Apply password policy, lock screen, antivirus.                                         | —              |
-|    15 | Data Destruction Methods                  | 220-1102 2.3     | Compare shredding, degaussing, wipe utilities.                                         | —              |
-|    15 | Install and Use Antivirus                 | 220-1102 2.4     | Install ClamAV or Windows Defender and scan files.                                     | —              |
-|    16 | Best Practices for Security               | 220-1102 2.5     | Set permissions, run updates, restrict user access.                                    | —              |
-|    16 | Mobile Security Practice                  | 220-1102 2.6     | Enable MFA, remote wipe, VPN on Android/iOS.                                           | —              |
-|    16 | Wireless Security Setup                   | 220-1102 2.7     | Configure WPA2/3, disable SSID, MAC filtering.                                         | —              |
-|    16 | Encryption and Hashing                    | 220-1102 2.8     | Use GPG, OpenSSL to encrypt and hash test data.                                        | —              |
-|    17 | OS Troubleshooting Sim Lab                | 220-1102 3.1     | Fix boot errors, driver issues, and black screens.                                     | —              |
-|    17 | App and Service Troubleshooting           | 220-1102 3.2     | Diagnose and restart failed services.                                                  | —              |
-|    17 | Security Alerts Investigation             | 220-1102 3.3     | Respond to AV alerts, quarantine logs, and scans.                                      | —              |
-|    18 | Printer Troubleshooting Lab               | 220-1102 3.4     | Simulate and fix jams, no connectivity, errors.                                        | —              |
-|    18 | Mobile Device Issues                      | 220-1102 3.5     | Resolve overheating, sync failures, battery problems.                                  | —              |
-|    18 | Diagnose Network Connectivity             | 220-1102 3.6     | Identify IP conflict, DNS issues, slow speeds.                                         | —              |
-|    19 | Documentation Types & Management          | 220-1102 4.1     | Create a sample SOP and ticket log.                                                    | —              |
-|    19 | Change Management Scenario                | 220-1102 4.2     | Document a mock system upgrade request.                                                | —              |
-|    19 | Incident Response Procedures              | 220-1102 4.3     | Describe roles and steps in handling a breach.                                         | —              |
-|    19 | Disaster Recovery Planning                | 220-1102 4.4     | Create a backup and recovery plan.                                                     | —              |
-|    19 | Communication and Soft Skills             | 220-1102 4.5     | Role-play help desk scenarios.                                                         | —              |
-|    19 | Privacy and Licensing Policies            | 220-1102 4.6     | Review PII, EULA, and compliance requirements.                                         | —              |
-|    20 | Threat Actor Types and Motivations        | SY0-601 1.1      | Define and categorize threat actors. (THM: Threat Actors)                              | —              |
-|    20 | Social Engineering Techniques             | SY0-601 1.2      | Simulate phishing, pretexting, and baiting. (THM: Social Engineering)                  | —              |
-|    20 | Analyze Attacks and Malware               | SY0-601 1.3      | Classify DoS, MITM, ransomware, worms. (THM: Malware Playground)                       | —              |
-|    20 | Indicators of Compromise (IOCs)           | SY0-601 1.4      | Identify IOCs in logs. (THM: SOC Level 1)                                              | —              |
-|    21 | Vulnerabilities and Misconfigurations     | SY0-601 1.5      | List and test for misconfigurations.                                                   | —              |
-|    21 | Threat Intelligence Sources               | SY0-601 1.6      | Review threat feeds, STIX/TAXII. (THM: Threat Intelligence)                            | —              |
-|    21 | Pen Testing vs. Vulnerability Scanning    | SY0-601 1.7      | Compare tools and objectives. (THM: Vulnerability Management)                          | —              |
-|    21 | Attack Frameworks Overview                | SY0-601 1.8      | Explore MITRE ATT&CK, Kill Chain. (THM: MITRE ATT&CK)                                  | —              |
-|    22 | Security Controls and Frameworks          | SY0-601 2.1      | List administrative, technical, physical controls.                                     | —              |
-|    22 | Secure Network Architecture               | SY0-601 2.2      | Design segmented, firewalled topology.                                                 | —              |
-|    22 | Security Implications of Embedded Systems | SY0-601 2.3      | Review IoT, RTOS threats. (THM: IoT Security)                                          | —              |
-|    22 | Security in Cloud and Virtualization      | SY0-601 2.4      | Secure AWS/GCP/Azure workloads. (THM: Cloud Fundamentals)                              | —              |
-|    23 | Secure Application Development            | SY0-601 2.5      | List secure coding practices. (THM: OWASP Top 10)                                      | —              |
-|    23 | Authentication and Authorization Models   | SY0-601 2.6      | Compare SAML, OAuth, OpenID.                                                           | —              |
-|    23 | Wireless Security Configurations          | SY0-601 2.7      | Implement WPA2/3, EAP.                                                                 | —              |
-|    23 | Implement Secure Protocols                | SY0-601 2.8      | Use SSH, TLS, SFTP, HTTPS. (THM: Network Security Basics)                              | —              |
-|    24 | Compare Identity Types                    | SY0-601 3.1      | Define users, services, federated identity.                                            | —              |
-|    24 | Identity and Account Management Controls  | SY0-601 3.2      | Use MFA, time-based restrictions.                                                      | —              |
-|    24 | Authentication Protocols                  | SY0-601 3.3      | Compare PAP, CHAP, MS-CHAP.                                                            | —              |
-|    24 | IAM Solutions and Considerations          | SY0-601 3.4      | Implement role-based and rule-based access.                                            | —              |
-|    25 | Basic Cryptographic Concepts              | SY0-601 3.5      | Define hashing, encryption, obfuscation.                                               | —              |
-|    25 | Cryptographic Algorithms                  | SY0-601 3.6      | Use AES, RSA, SHA, ECC.                                                                | —              |
-|    25 | PKI Components and Concepts               | SY0-601 3.7      | Create and use certs with OpenSSL.                                                     | —              |
-|    25 | Certificate Formats and Use Cases         | SY0-601 3.8      | Compare .pem, .cer, .pfx.                                                              | —              |
-|    26 | Secure Network Protocols                  | SY0-601 4.1      | Deploy VPN, HTTPS, SNMPv3.                                                             | —              |
-|    26 | Security Tools: IDS/IPS/SIEM              | SY0-601 4.2      | Install and configure Wazuh. (THM: SIEM Tools)                                         | Wazuh          |
-|    26 | Analyze Output from Security Tools        | SY0-601 4.3      | Interpret firewall, AV, and SIEM logs.                                                 | —              |
-|    26 | Common Security Issues                    | SY0-601 4.4      | Analyze misconfigurations, weak passwords.                                             | —              |
-|    27 | Implement Secure Protocols                | SY0-601 4.5      | Enforce HTTPS, secure APIs.                                                            | —              |
-|    27 | Mobile and Embedded System Security       | SY0-601 4.6      | Secure phones, printers, SCADA.                                                        | —              |
-|    27 | Hardening Techniques                      | SY0-601 4.7      | Disable services, apply least privilege.                                               | —              |
-|    27 | Implementing Monitoring Tools             | SY0-601 4.8      | Use logs, baselining, alerts.                                                          | —              |
-|    28 | Governance and Risk Concepts              | SY0-601 5.1      | Define risk appetite, frameworks.                                                      | —              |
-|    28 | Security Policies and Procedures          | SY0-601 5.2      | Draft AUP, NDA, classification policy.                                                 | —              |
-|    28 | Business Impact Analysis                  | SY0-601 5.3      | Create BIA, define RPO/RTO.                                                            | —              |
-|    28 | Incident Response Planning                | SY0-601 5.4      | Design incident response workflow. (THM: IR Playbook)                                  | —              |
-|    29 | Digital Forensics Process                 | SY0-601 5.5      | Document chain of custody, acquisition steps.                                          | Git            |
-|    29 | Data Privacy and Protection               | SY0-601 5.6      | Define PII, GDPR, HIPAA.                                                               | —              |
-|    29 | Physical Security Controls                | SY0-601 5.7      | Review fences, locks, security guards.                                                 | —              |
-|    29 | Review of Legal and Compliance            | SY0-601 5.8      | Compare laws, licensing, data ownership.                                               | —              |
-|    30 | Security+ Practice Exam                   | SY0-601 Final    | Take a timed practice exam and analyze results.                                        | —              |
-|    30 | Security+ Lab Log and Reflections         | SY0-601 Final    | Compile documentation of all labs and projects.                                        | —              |
-|    30 | Secure System Setup and Walkthrough       | SY0-601 Final    | Configure a hardened Linux/Windows VM and record video overview.                       | —              |
+
+| Day | Project Title                             | Exam Objective | Description                                                                            | Tool(s) Used |
+| --: | :---------------------------------------- | :------------- | :------------------------------------------------------------------------------------- | :----------- |
+|   1 | Understand Types of Computers and OS      | FC0-U71 1.1    | Research and document characteristics of desktop, laptop, server, and mobile OS.       | —            |
+|   1 | Set Up and Navigate File Systems          | FC0-U71 2.1    | Practice using file explorer and terminal on Linux and Windows.                        | —            |
+|   1 | File Types and Extensions Activity        | FC0-U71 2.2    | Create files of different types and examine file associations.                         | —            |
+|   1 | Command-Line Practice Lab                 | FC0-U71 2.3    | Use `cd`, `ls`, `mkdir`, and `nano` on Linux to manipulate directories and files.      | —            |
+|   2 | Networking Concepts Lab                   | FC0-U71 3.1    | Draw and label basic LAN and WAN diagrams; identify router and switch roles.           | —            |
+|   2 | Intro to Protocols and Ports              | FC0-U71 3.2    | Match common ports to services and test basic connectivity using `ping`, `traceroute`. | —            |
+|   2 | IP Addressing Basics                      | FC0-U71 3.3    | Identify private vs public IPs; use `ip a` and `ipconfig` to view configs.             | —            |
+|   2 | Network Troubleshooting Toolkit           | FC0-U71 3.4    | Use `ping`, `traceroute`, and `netstat` to identify network issues.                    | —            |
+|   3 | Hardware Basics Interactive Quiz          | FC0-U71 4.1    | Label PC components and identify their functions.                                      | —            |
+|   3 | Input and Output Devices Survey           | FC0-U71 4.2    | Inventory and classify I/O devices in your environment.                                | —            |
+|   3 | Storage Devices Comparison                | FC0-U71 4.3    | Compare HDD, SSD, NVMe with metrics like speed and capacity.                           | —            |
+|   3 | PC Setup and BIOS Walkthrough             | FC0-U71 4.4    | Explore BIOS/UEFI on a virtual machine; document settings.                             | —            |
+|   4 | Operating Systems Comparison              | FC0-U71 5.1    | Chart Linux, Windows, macOS features and installation types.                           | —            |
+|   4 | Application Management Practice           | FC0-U71 5.2    | Install and remove software using CLI and GUI.                                         | —            |
+|   4 | Mobile OS Security Review                 | FC0-U71 5.3    | List mobile OS settings that enforce device security.                                  | —            |
+|   4 | System Utilities Hands-On                 | FC0-U71 5.4    | Use Task Manager, Resource Monitor, and top on Linux to view system usage.             | —            |
+|   5 | Software Development Phases Overview      | FC0-U71 6.1    | Diagram the software development lifecycle (SDLC) and give an example for each phase.  | —            |
+|   5 | Programming Languages Comparison          | FC0-U71 6.2    | Compare compiled vs. interpreted languages and list use cases.                         | —            |
+|   5 | Logic and Flow Control in Code            | FC0-U71 6.3    | Write a basic script with conditionals and loops in Python.                            | Python3      |
+|   5 | Database Structure Walkthrough            | FC0-U71 6.4    | Create and query a basic SQLite database.                                              | —            |
+|   5 | IT Career Path Exploration                | FC0-U71 7.1    | Research roles like helpdesk, network admin, and cloud engineer.                       | —            |
+|   5 | Certifications and Career Goals           | FC0-U71 7.2    | Create a roadmap that includes CompTIA and cloud certifications.                       | —            |
+|   5 | IT Documentation Practice                 | FC0-U71 8.1    | Write clear steps for a process you completed this week.                               | —            |
+|   5 | Troubleshooting Methodology Lab           | FC0-U71 8.2    | Simulate a PC boot failure and document your troubleshooting steps.                    | —            |
+|   6 | Identify Laptop Components                | 220-1101 1.1   | Disassemble a laptop or use online simulator; identify battery, SSD, RAM.              | —            |
+|   6 | Compare Mobile Device Displays            | 220-1101 1.2   | Document LCD, OLED, touch displays and pros/cons.                                      | —            |
+|   6 | Mobile Device Connections Lab             | 220-1101 1.3   | Practice configuring Wi-Fi, Bluetooth, and tethering.                                  | —            |
+|   6 | Accessories and Ports Activity            | 220-1101 1.4   | Use USB-C, microUSB, and docking station functions.                                    | —            |
+|   6 | Configure Mobile OS Settings              | 220-1101 1.5   | Modify Android/iOS settings: VPN, updates, accessibility.                              | —            |
+|   6 | Mobile App Installation Task              | 220-1101 1.6   | Install and manage apps via Google Play or iOS App Store.                              | —            |
+|   6 | Mobile Security Settings Lab              | 220-1101 1.7   | Enable biometric login, screen locks, location permissions.                            | —            |
+|   7 | Compare Wireless Standards                | 220-1101 2.1   | Create a chart comparing 802.11 standards (a/b/g/n/ac/ax).                             | —            |
+|   7 | Wired Network Cabling Demo                | 220-1101 2.2   | Identify twisted pair, coax, and fiber with use cases.                                 | —            |
+|   7 | Networking Hardware Comparison            | 220-1101 2.3   | Document the roles of router, switch, hub, modem.                                      | —            |
+|   7 | IP Addressing Practice                    | 220-1101 2.4   | Convert between decimal and binary IP addresses.                                       | —            |
+|   7 | Ports and Protocols Matching Game         | 220-1101 2.5   | Match services like HTTP, FTP, SSH with their ports.                                   | —            |
+|   7 | SOHO Configuration Lab                    | 220-1101 2.6   | Set up a basic SOHO router and secure the network.                                     | —            |
+|   7 | Internet Connection Types                 | 220-1101 2.7   | Compare DSL, cable, satellite, fiber connections.                                      | —            |
+|   8 | Motherboard Component ID                  | 220-1101 3.1   | Label major motherboard components in a diagram.                                       | —            |
+|   8 | Compare RAM Types                         | 220-1101 3.2   | List DDR generations and speeds; identify form factors.                                | —            |
+|   8 | Install and Test Storage                  | 220-1101 3.3   | Use virtual or physical lab to install and benchmark SSD.                              | —            |
+|   8 | CPUs and Cooling Methods                  | 220-1101 3.4   | Research and document CPU packages, heat sinks, thermal paste.                         | —            |
+|   8 | Power Supplies and Wattage                | 220-1101 3.5   | Calculate PC power needs using PSU calculator.                                         | —            |
+|   8 | Custom Build Scenario                     | 220-1101 3.6   | Design builds for gaming, NAS, CAD, virtualization.                                    | —            |
+|   9 | Install Peripherals Lab                   | 220-1101 3.7   | Connect and test external monitors, printers, scanners.                                | —            |
+|   9 | Display Technologies Practice             | 220-1101 3.8   | Compare LED, IPS, OLED specs and features.                                             | —            |
+|   9 | Install and Configure Printers            | 220-1101 3.9   | Set up printer over USB and Wi-Fi, test duplex printing.                               | —            |
+|   9 | Printer Maintenance Task                  | 220-1101 3.10  | Replace toner, clean rollers, check print quality.                                     | —            |
+|  10 | Troubleshoot Display Issues               | 220-1101 4.1   | Simulate and fix resolution, brightness, and flickering.                               | —            |
+|  10 | Fix Network Connectivity                  | 220-1101 4.2   | Resolve IP conflict, no internet, DNS failure.                                         | —            |
+|  10 | Mobile Device Troubleshooting             | 220-1101 4.3   | Handle overheating, unresponsive screen, battery drain.                                | —            |
+|  10 | Printer Troubleshooting                   | 220-1101 4.4   | Diagnose jams, ghosting, blank pages, and offline errors.                              | —            |
+|  11 | Cloud Models Comparison                   | 220-1101 5.1   | Chart SaaS, IaaS, PaaS examples and use cases.                                         | —            |
+|  11 | Set Up a Local VM                         | 220-1101 5.2   | Create and configure a Linux VM in VirtualBox or KVM.                                  | —            |
+|  12 | Follow Safety Procedures                  | 220-1101 6.1   | Use anti-static equipment and safe handling techniques.                                | —            |
+|  12 | Proper Disposal Exercise                  | 220-1101 6.2   | Identify e-waste rules for batteries, drives, monitors.                                | —            |
+|  12 | Documentation Types                       | 220-1101 6.3   | Compare change logs, network maps, SOPs.                                               | —            |
+|  12 | Use Appropriate Tools                     | 220-1101 6.4   | Demonstrate use of multimeter, loopback plug, and cable tester.                        | —            |
+|  13 | Install Windows OS                        | 220-1102 1.1   | Install Windows 10/11 in a VM and document each step.                                  | —            |
+|  13 | Windows Features and Tools                | 220-1102 1.2   | Explore and demonstrate MMC, msconfig, services.msc.                                   | —            |
+|  13 | Command Line Utilities Practice           | 220-1102 1.3   | Use `ipconfig`, `ping`, `chkdsk`, and `tasklist`.                                      | —            |
+|  13 | Windows Settings Configuration            | 220-1102 1.4   | Modify system settings, language, display, and region.                                 | —            |
+|  13 | Control Panel Components                  | 220-1102 1.5   | Review functions of system, network, programs, devices.                                | —            |
+|  14 | System Utilities and Snapshots            | 220-1102 1.6   | Use System Restore and backup tools in Windows.                                        | —            |
+|  14 | Operating System Types                    | 220-1102 1.7   | Compare Windows, Linux, Android, iOS functionality.                                    | —            |
+|  14 | Install and Use Linux                     | 220-1102 1.8   | Install Ubuntu or Debian and verify networking.                                        | —            |
+|  14 | Scripting and Automation Basics           | 220-1102 1.9   | Write and run `.bat`, `.sh`, or `.ps1` scripts.                                        | —            |
+|  14 | Remote Access Tools                       | 220-1102 1.10  | Configure and test RDP, SSH, and VNC sessions.                                         | —            |
+|  15 | Security Threat Identification            | 220-1102 2.1   | Document malware types and threat actors.                                              | —            |
+|  15 | Secure Workstation Setup                  | 220-1102 2.2   | Apply password policy, lock screen, antivirus.                                         | —            |
+|  15 | Data Destruction Methods                  | 220-1102 2.3   | Compare shredding, degaussing, wipe utilities.                                         | —            |
+|  15 | Install and Use Antivirus                 | 220-1102 2.4   | Install ClamAV or Windows Defender and scan files.                                     | —            |
+|  16 | Best Practices for Security               | 220-1102 2.5   | Set permissions, run updates, restrict user access.                                    | —            |
+|  16 | Mobile Security Practice                  | 220-1102 2.6   | Enable MFA, remote wipe, VPN on Android/iOS.                                           | —            |
+|  16 | Wireless Security Setup                   | 220-1102 2.7   | Configure WPA2/3, disable SSID, MAC filtering.                                         | —            |
+|  16 | Encryption and Hashing                    | 220-1102 2.8   | Use GPG, OpenSSL to encrypt and hash test data.                                        | —            |
+|  17 | OS Troubleshooting Sim Lab                | 220-1102 3.1   | Fix boot errors, driver issues, and black screens.                                     | —            |
+|  17 | App and Service Troubleshooting           | 220-1102 3.2   | Diagnose and restart failed services.                                                  | —            |
+|  17 | Security Alerts Investigation             | 220-1102 3.3   | Respond to AV alerts, quarantine logs, and scans.                                      | —            |
+|  18 | Printer Troubleshooting Lab               | 220-1102 3.4   | Simulate and fix jams, no connectivity, errors.                                        | —            |
+|  18 | Mobile Device Issues                      | 220-1102 3.5   | Resolve overheating, sync failures, battery problems.                                  | —            |
+|  18 | Diagnose Network Connectivity             | 220-1102 3.6   | Identify IP conflict, DNS issues, slow speeds.                                         | —            |
+|  19 | Documentation Types & Management          | 220-1102 4.1   | Create a sample SOP and ticket log.                                                    | —            |
+|  19 | Change Management Scenario                | 220-1102 4.2   | Document a mock system upgrade request.                                                | —            |
+|  19 | Incident Response Procedures              | 220-1102 4.3   | Describe roles and steps in handling a breach.                                         | —            |
+|  19 | Disaster Recovery Planning                | 220-1102 4.4   | Create a backup and recovery plan.                                                     | —            |
+|  19 | Communication and Soft Skills             | 220-1102 4.5   | Role-play help desk scenarios.                                                         | —            |
+|  19 | Privacy and Licensing Policies            | 220-1102 4.6   | Review PII, EULA, and compliance requirements.                                         | —            |
+|  20 | Threat Actor Types and Motivations        | SY0-601 1.1    | Define and categorize threat actors. (THM: Threat Actors)                              | —            |
+|  20 | Social Engineering Techniques             | SY0-601 1.2    | Simulate phishing, pretexting, and baiting. (THM: Social Engineering)                  | —            |
+|  20 | Analyze Attacks and Malware               | SY0-601 1.3    | Classify DoS, MITM, ransomware, worms. (THM: Malware Playground)                       | —            |
+|  20 | Indicators of Compromise (IOCs)           | SY0-601 1.4    | Identify IOCs in logs. (THM: SOC Level 1)                                              | —            |
+|  21 | Vulnerabilities and Misconfigurations     | SY0-601 1.5    | List and test for misconfigurations.                                                   | —            |
+|  21 | Threat Intelligence Sources               | SY0-601 1.6    | Review threat feeds, STIX/TAXII. (THM: Threat Intelligence)                            | —            |
+|  21 | Pen Testing vs. Vulnerability Scanning    | SY0-601 1.7    | Compare tools and objectives. (THM: Vulnerability Management)                          | —            |
+|  21 | Attack Frameworks Overview                | SY0-601 1.8    | Explore MITRE ATT&CK, Kill Chain. (THM: MITRE ATT&CK)                                  | —            |
+|  22 | Security Controls and Frameworks          | SY0-601 2.1    | List administrative, technical, physical controls.                                     | —            |
+|  22 | Secure Network Architecture               | SY0-601 2.2    | Design segmented, firewalled topology.                                                 | —            |
+|  22 | Security Implications of Embedded Systems | SY0-601 2.3    | Review IoT, RTOS threats. (THM: IoT Security)                                          | —            |
+|  22 | Security in Cloud and Virtualization      | SY0-601 2.4    | Secure AWS/GCP/Azure workloads. (THM: Cloud Fundamentals)                              | —            |
+|  23 | Secure Application Development            | SY0-601 2.5    | List secure coding practices. (THM: OWASP Top 10)                                      | —            |
+|  23 | Authentication and Authorization Models   | SY0-601 2.6    | Compare SAML, OAuth, OpenID.                                                           | —            |
+|  23 | Wireless Security Configurations          | SY0-601 2.7    | Implement WPA2/3, EAP.                                                                 | —            |
+|  23 | Implement Secure Protocols                | SY0-601 2.8    | Use SSH, TLS, SFTP, HTTPS. (THM: Network Security Basics)                              | —            |
+|  24 | Compare Identity Types                    | SY0-601 3.1    | Define users, services, federated identity.                                            | —            |
+|  24 | Identity and Account Management Controls  | SY0-601 3.2    | Use MFA, time-based restrictions.                                                      | —            |
+|  24 | Authentication Protocols                  | SY0-601 3.3    | Compare PAP, CHAP, MS-CHAP.                                                            | —            |
+|  24 | IAM Solutions and Considerations          | SY0-601 3.4    | Implement role-based and rule-based access.                                            | —            |
+|  25 | Basic Cryptographic Concepts              | SY0-601 3.5    | Define hashing, encryption, obfuscation.                                               | —            |
+|  25 | Cryptographic Algorithms                  | SY0-601 3.6    | Use AES, RSA, SHA, ECC.                                                                | —            |
+|  25 | PKI Components and Concepts               | SY0-601 3.7    | Create and use certs with OpenSSL.                                                     | —            |
+|  25 | Certificate Formats and Use Cases         | SY0-601 3.8    | Compare .pem, .cer, .pfx.                                                              | —            |
+|  26 | Secure Network Protocols                  | SY0-601 4.1    | Deploy VPN, HTTPS, SNMPv3.                                                             | —            |
+|  26 | Security Tools: IDS/IPS/SIEM              | SY0-601 4.2    | Install and configure Wazuh. (THM: SIEM Tools)                                         | Wazuh        |
+|  26 | Analyze Output from Security Tools        | SY0-601 4.3    | Interpret firewall, AV, and SIEM logs.                                                 | —            |
+|  26 | Common Security Issues                    | SY0-601 4.4    | Analyze misconfigurations, weak passwords.                                             | —            |
+|  27 | Implement Secure Protocols                | SY0-601 4.5    | Enforce HTTPS, secure APIs.                                                            | —            |
+|  27 | Mobile and Embedded System Security       | SY0-601 4.6    | Secure phones, printers, SCADA.                                                        | —            |
+|  27 | Hardening Techniques                      | SY0-601 4.7    | Disable services, apply least privilege.                                               | —            |
+|  27 | Implementing Monitoring Tools             | SY0-601 4.8    | Use logs, baselining, alerts.                                                          | —            |
+|  28 | Governance and Risk Concepts              | SY0-601 5.1    | Define risk appetite, frameworks.                                                      | —            |
+|  28 | Security Policies and Procedures          | SY0-601 5.2    | Draft AUP, NDA, classification policy.                                                 | —            |
+|  28 | Business Impact Analysis                  | SY0-601 5.3    | Create BIA, define RPO/RTO.                                                            | —            |
+|  28 | Incident Response Planning                | SY0-601 5.4    | Design incident response workflow. (THM: IR Playbook)                                  | —            |
+|  29 | Digital Forensics Process                 | SY0-601 5.5    | Document chain of custody, acquisition steps.                                          | Git          |
+|  29 | Data Privacy and Protection               | SY0-601 5.6    | Define PII, GDPR, HIPAA.                                                               | —            |
+|  29 | Physical Security Controls                | SY0-601 5.7    | Review fences, locks, security guards.                                                 | —            |
+|  29 | Review of Legal and Compliance            | SY0-601 5.8    | Compare laws, licensing, data ownership.                                               | —            |
+|  30 | Security+ Practice Exam                   | SY0-601 Final  | Take a timed practice exam and analyze results.                                        | —            |
+|  30 | Security+ Lab Log and Reflections         | SY0-601 Final  | Compile documentation of all labs and projects.                                        | —            |
+|  30 | Secure System Setup and Walkthrough       | SY0-601 Final  | Configure a hardened Linux/Windows VM and record video overview.                       | —            |
